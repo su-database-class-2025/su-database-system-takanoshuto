@@ -3,10 +3,6 @@ services:
   db:
     container_name: postgis_container
     build: ./postgis-osm
-<<<<<<< HEAD
-=======
-    platform: linux/amd64
->>>>>>> template/main
     environment:
       POSTGRES_DB: postgre
       POSTGRES_USER: postgres
@@ -32,8 +28,4 @@ services:
     volumes:
     - ./work/ex2:/work/ex2
     - ./work/python:/work/python
-<<<<<<< HEAD
     tty: true
-=======
-    tty: true
->>>>>>> template/main
