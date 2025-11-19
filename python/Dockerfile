@@ -5,7 +5,6 @@ RUN apt-get update && \
     apt-get -y install \
             python3-distutils \
             python3-dev \
-            python-pip \
             python3-pip \
             gcc \
             g++ \
