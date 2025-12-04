@@ -1,2 +1,3 @@
 SELECT film_id, title 
-    FROM film;
+    FROM film
+    LIMIT 5;

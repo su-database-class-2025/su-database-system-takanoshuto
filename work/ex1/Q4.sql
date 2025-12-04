@@ -1,2 +1,3 @@
 SELECT * FROM film
-    WHERE rating = 'PG';
+    WHERE rating = 'PG'
+    LIMIT 5;
