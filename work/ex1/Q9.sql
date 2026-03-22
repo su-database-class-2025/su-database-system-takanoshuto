@@ -1,0 +1,1 @@
+SELECT COUNT(language_id) FROM language;
